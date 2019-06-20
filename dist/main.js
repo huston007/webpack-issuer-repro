@@ -7,7 +7,7 @@
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! ./circle.svg */ "./circle.svg");
+__webpack_require__(/*! ./circle.svg */ "./circle.svg?06e8");
 
 
 /***/ }),
@@ -19,23 +19,12 @@ __webpack_require__(/*! ./circle.svg */ "./circle.svg");
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! ./circle.svg */ "./circle.svg");
+__webpack_require__(/*! ./circle.svg */ "./circle.svg?784c");
 
 
 /***/ }),
 
-/***/ "./circle.svg":
-/*!********************!*\
-  !*** ./circle.svg ***!
-  \********************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__.p + "c4517d2df44e3060625b79c4a3e76521.svg";
-
-/***/ }),
-
-/***/ "./circle.svg":
+/***/ "./circle.svg?06e8":
 /*!********************!*\
   !*** ./circle.svg ***!
   \********************/
@@ -43,6 +32,17 @@ module.exports = __webpack_require__.p + "c4517d2df44e3060625b79c4a3e76521.svg";
 /***/ (function(module, exports) {
 
 module.exports = "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxNiAxNiI+PGNpcmNsZSBjeD0iOCIgY3k9IjgiIHI9IjgiLz48L3N2Zz4="
+
+/***/ }),
+
+/***/ "./circle.svg?784c":
+/*!********************!*\
+  !*** ./circle.svg ***!
+  \********************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "c4517d2df44e3060625b79c4a3e76521.svg";
 
 /***/ }),
 
