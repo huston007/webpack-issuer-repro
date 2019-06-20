@@ -2,4 +2,4 @@ function importAll (r) {
   r.keys().forEach(r);
 }
 
-importAll(require.context('.', true, /\.svg$/));
+importAll(require.context('.', false, /\.svg$/));
