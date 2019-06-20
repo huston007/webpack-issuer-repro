@@ -1,1 +1,5 @@
-require('./circle.svg');
+function importAll (r) {
+  r.keys().forEach(r);
+}
+
+importAll(require.context('.', true, /\.svg$/));

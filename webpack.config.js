@@ -1,21 +1,13 @@
 module.exports = {
   mode: 'development',
   devtool: false,
-  entry: [
-    './a.js',
-    './b.js'
-  ],
+  entry: './a.js',
   module: {
     rules: [
       {
         test: /\.svg/,
-        issuer: /a\.js/,
+        issuer: /\.js/, // Remove this line and everything works
         loader: 'url-loader'
-      },
-      {
-        test: /\.svg/,
-        issuer: /b\.js/,
-        loader: 'file-loader'
       }
     ]
   },
